@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Orrery Comet Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción / Description
 
-## Available Scripts
+### Español:
+Este proyecto está desarrollado en **React** y utiliza una **API de la NASA** para visualizar las órbitas de planetas y cometas. Su objetivo es ofrecer una representación precisa de los cuerpos celestes y sus trayectorias orbitales. Cuenta con un control deslizante que permite ajustar la velocidad a la que tanto los cometas como los planetas orbitan alrededor del sol, ofreciendo una experiencia interactiva. El proyecto actualmente está en una fase de prototipado.
 
-In the project directory, you can run:
+### English:
+This project is built in **React** and utilizes a **NASA API** to visualize the orbits of planets and comets. Its goal is to provide an accurate representation of celestial bodies and their orbital paths. It features a slider control to adjust the speed at which both comets and planets orbit around the sun, offering an interactive experience. The project is currently in the prototyping phase.
 
-### `npm start`
+## Características / Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Español:
+- Visualización de órbitas de planetas y cometas.
+- Control deslizante para ajustar la velocidad de las órbitas.
+- Integración con la API de la NASA para obtener datos orbitales en tiempo real.
+- Gráficos 3D interactivos con Three.js.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### English:
+- Visualization of the orbits of planets and comets.
+- Slider to adjust the speed of the orbits.
+- Integration with NASA's API for real-time orbital data.
+- Interactive 3D graphics using Three.js.
 
-### `npm test`
+## Instalación / Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Español:
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/camilotenorio1234/OrreryCometTracker.git
 
-### `npm run build`
+2. Entra en la carpeta del proyecto:
+   cd OrreryCometTracker
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Instala las dependencias:
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Inicia el servidor de desarrollo:
+   npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### English:
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/camilotenorio1234/OrreryCometTracker.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Enter the project folder:
+   cd OrreryCometTracker
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
+   npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Uso / Usage
 
-## Learn More
+### Español:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Puedes controlar la velocidad de las órbitas utilizando el control deslizante que se muestra en la interfaz inferior. Los planetas y cometas se muestran en sus respectivas trayectorias orbitales alrededor del Sol.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### English
 
-### Code Splitting
+You can control the speed of the orbits using the slider control displayed at the bottom of the interface. The planets and comets are shown on their respective orbital paths around the Sun.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tecnologías utilizadas / Technologies Used
 
-### Analyzing the Bundle Size
+### Español:
+°React
+°Three.js
+°API de la NASA
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### English:
+°React
+°Three.js
+°NASA API
 
-### Making a Progressive Web App
+## Video de demostración / Demo Video
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Ver video de demostración aquí](https://youtu.be/R9Ss4JhULOM)
+[Watch the demo video here](https://youtu.be/R9Ss4JhULOM)
