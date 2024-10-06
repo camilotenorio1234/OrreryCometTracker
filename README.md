@@ -77,5 +77,6 @@ You can control the speed of the orbits using the slider control displayed at th
 
 ## Video de demostración / Demo Video
 
-[Ver video de demostración aquí](https://youtu.be/R9Ss4JhULOM)
-[Watch the demo video here](https://youtu.be/R9Ss4JhULOM)
+[![Ver video de demostración](https://img.youtube.com/vi/R9Ss4JhULOM/0.jpg)](https://www.youtube.com/watch?v=R9Ss4JhULOM)
+
+[![Watch the demo video](https://img.youtube.com/vi/R9Ss4JhULOM/0.jpg)](https://www.youtube.com/watch?v=R9Ss4JhULOM)
